@@ -7,6 +7,7 @@ let selectTodo = document.querySelector(".dropdown");
 todoInput.addEventListener("keypress", (e) => {
     if(e.keyCode === 13  && todoInput.value){
         todoInputOnClick();
+        //added to local storage
     }
 });
 function todoInputOnClick(){
